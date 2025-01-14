@@ -1,0 +1,30 @@
+name: alien_sorter_app
+description: "A flutter app for sorting aliens pets"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+  flutter_launcher_icons: ^0.9.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logoalien.png"
